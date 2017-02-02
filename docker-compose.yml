@@ -1,0 +1,21 @@
+hugo:
+  image: jojomi/hugo:latest
+  volumes:
+    - ./src/:/src
+    - ./output/:/output
+  environment:
+    - HUGO_REFRESH_TIME=3600
+    - HUGO_THEME=hugo-elate-theme
+    - HUGO_BASEURL=dclead.org
+  restart: never
+
+web:
+  image: jojomi/nginx-static
+  volumes:
+    - ./output:/var/www
+  environment:
+    - VIRTUAL_HOST=dclead.org
+  ports:
+    - 80:80
+  restart: never
+
