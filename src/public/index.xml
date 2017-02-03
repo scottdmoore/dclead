@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DC LEAD</title>
+    <link>http://dclead.org/index.xml</link>
+    <description>Recent content on DC LEAD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Feb 2017 10:53:47 -0500</lastBuildDate>
+    <atom:link href="http://dclead.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>zast</title>
+      <link>http://dclead.org/post/zast/</link>
+      <pubDate>Fri, 03 Feb 2017 10:53:47 -0500</pubDate>
+      
+      <guid>http://dclead.org/post/zast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>last</title>
+      <link>http://dclead.org/post/last/</link>
+      <pubDate>Fri, 03 Feb 2017 10:53:41 -0500</pubDate>
+      
+      <guid>http://dclead.org/post/last/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alpha</title>
+      <link>http://dclead.org/post/alpha/</link>
+      <pubDate>Fri, 03 Feb 2017 10:52:43 -0500</pubDate>
+      
+      <guid>http://dclead.org/post/alpha/</guid>
+      <description>&lt;p&gt;?Why not&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>third</title>
+      <link>http://dclead.org/post/third/</link>
+      <pubDate>Fri, 03 Feb 2017 10:30:41 -0500</pubDate>
+      
+      <guid>http://dclead.org/post/third/</guid>
+      <description>&lt;p&gt;Wow the third sucks
+Wow the third sucks
+Wow the third sucks
+Wow the third sucks
+Wow the third sucks
+Wow the third sucks&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
