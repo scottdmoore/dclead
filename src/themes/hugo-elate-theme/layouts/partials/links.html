@@ -2,23 +2,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.testimonials.title }}{{ . | markdownify }}{{ end }}</h2>
+					<h2 class="to-animate">{{ with .Site.Params.links.title }}{{ . | markdownify }}{{ end }}</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.testimonials.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ with .Site.Params.links.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-			{{ range first 3 .Data.Pages }}
+			{{ range first 3 (where .Data.Pages "Type" "link") }}
 				<div class="col-md-4">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
-							<p>{{ .Title | markdownify}}</p>
+							<p>{{ .Params.Description | markdownify}}</p>
 						</blockquote>
 						<div class="author to-animate">
-							<p>{{ .Content | markdownify }}</p>
+							<p><a href="{{ .Params.destination }}">{{ .Title }}</a></p>
 						</div>
 					</div>
 				</div>

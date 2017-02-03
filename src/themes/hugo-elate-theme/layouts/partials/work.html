@@ -11,7 +11,7 @@
 				</div>
 			</div>
 			<div class="row row-bottom-padded-sm">
-			{{ range first 8 .Data.Pages }}
+			{{ range first 8 (where .Data.Pages "Type" "post") }}
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a href="{{ .Permalink }}" class="fh5co-project-item image-popup to-animate">
 						{{ with .Params.featured_image }}<img src="images/{{ . }}" class="img-responsive">{{ end }}
