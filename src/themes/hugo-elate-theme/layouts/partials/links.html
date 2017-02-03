@@ -11,14 +11,14 @@
 				</div>
 			</div>
 			<div class="row">
-			{{ range first 3 (where .Data.Pages "Type" "link") }}
-				<div class="col-md-4">
+			{{ range first 6 (where .Data.Pages "Type" "link") }}
+				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
-							<p>{{ .Params.Description | markdownify}}</p>
+							<p>{{ .Content | markdownify}}</p>
 						</blockquote>
 						<div class="author to-animate">
-							<p><a href="{{ .Params.destination }}">{{ .Title }}</a></p>
+							<p><h3><a href="{{ .Params.destination }}">{{ .Title }}</a></h3></p>
 						</div>
 					</div>
 				</div>
