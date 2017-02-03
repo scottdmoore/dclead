@@ -11,15 +11,14 @@
 				</div>
 			</div>
 			<div class="row">
-			{{ range .Site.Params.testimonials.item }}
+			{{ range first 3 .Data.Pages }}
 				<div class="col-md-4">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
-							<p>{{ .quote | markdownify}}</p>
+							<p>{{ .Title | markdownify}}</p>
 						</blockquote>
 						<div class="author to-animate">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<p>{{ .person | markdownify }}</p>
+							<p>{{ .Content | markdownify }}</p>
 						</div>
 					</div>
 				</div>

@@ -4,7 +4,7 @@ hugo:
     - ./src/:/src
     - ./output/:/output
   environment:
-    - HUGO_REFRESH_TIME=3600
+    - HUGO_REFRESH_TIME=15
     - HUGO_THEME=hugo-elate-theme
     - HUGO_BASEURL=dclead.org
   restart: never

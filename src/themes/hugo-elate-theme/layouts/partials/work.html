@@ -11,13 +11,13 @@
 				</div>
 			</div>
 			<div class="row row-bottom-padded-sm">
-			{{ range .Site.Params.work.row }}
+			{{ range first 8 .Data.Pages }}
 				<div class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="images/{{ .img }}" class="fh5co-project-item image-popup to-animate">
-						<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
+					<a href="{{ .Permalink }}" class="fh5co-project-item image-popup to-animate">
+						{{ with .Params.featured_image }}<img src="images/{{ . }}" class="img-responsive">{{ end }}
 						<div class="fh5co-text">
-						<h2>{{ .title }}</h2>
-						<span>{{ .subtitle }}</span>
+						<h2>{{ .Title }}</h2>
+						<span>{{ .Params.Description }}</span>
 						</div>
 					</a>
 				</div>				
