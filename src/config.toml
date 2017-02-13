@@ -82,7 +82,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Projects"
     description = "Here are some of the projects we have been working on. Take a look and see how you can get involved."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
