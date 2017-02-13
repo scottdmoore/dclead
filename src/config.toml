@@ -56,7 +56,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Marginalized Populations"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Giving opportunities and training to help achieve a better quality of life."
     url = "#"
     button = "Click Me"
     icon = "icon-people"
