@@ -48,7 +48,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Education"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Schools for kids who want to read good and do other things good too!"
     url = "#"
     button = "Get In Touch"
     icon = "icon-book-open"
