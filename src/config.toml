@@ -39,7 +39,7 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "DC<br>Leadership<br>Education<br>Advocacy<br>Diversity"
+    title = "Leadership<br>Education<br>Advocacy<br>Diversity"
     subtitle = 'Bettering our local community via projects related to education, marginalized populations, and health<br>Getting involved in local politics and supporting local candidates who align with our views'
  
   # Intro section
