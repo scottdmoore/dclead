@@ -4,10 +4,10 @@ hugo:
     - ./src/:/src
     - ./output/:/output
   environment:
-    - HUGO_REFRESH_TIME=15
+    - HUGO_REFRESH_TIME=60
     - HUGO_THEME=hugo-elate-theme
     - HUGO_BASEURL=dclead.org
-  restart: never
+  restart: always
 
 web:
   image: jojomi/nginx-static
@@ -17,5 +17,5 @@ web:
     - VIRTUAL_HOST=dclead.org
   ports:
     - 80:80
-  restart: never
+  restart: always
 
