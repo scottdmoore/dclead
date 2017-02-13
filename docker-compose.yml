@@ -1,13 +1,12 @@
 hugo:
-  image: jojomi/hugo:latest
+  image: scoot21613/dclead:latest
   volumes:
     - ./src/:/src
     - ./output/:/output
   environment:
-    - HUGO_REFRESH_TIME=60
+    - HUGO_REFRESH_TIME=-1
     - HUGO_THEME=hugo-elate-theme
     - HUGO_BASEURL=dclead.org
-  restart: always
 
 web:
   image: jojomi/nginx-static
