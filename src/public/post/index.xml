@@ -6,87 +6,25 @@
     <description>Recent content in Posts on DC LEAD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Feb 2017 14:33:33 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 13 Feb 2017 09:12:51 +0000</lastBuildDate>
     <atom:link href="http://dclead.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>test99</title>
+      <title>Supply Baskets for Syrian Refugees</title>
+      <link>http://dclead.org/post/supply-baskets-for-syrian-refugees/</link>
+      <pubDate>Mon, 13 Feb 2017 09:12:51 +0000</pubDate>
+      
+      <guid>http://dclead.org/post/supply-baskets-for-syrian-refugees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DC LEAD Meeting!</title>
       <link>http://dclead.org/post/test99/</link>
       <pubDate>Fri, 03 Feb 2017 14:33:33 -0500</pubDate>
       
       <guid>http://dclead.org/post/test99/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>test7</title>
-      <link>http://dclead.org/post/test7/</link>
-      <pubDate>Fri, 03 Feb 2017 14:32:25 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/test7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test5</title>
-      <link>http://dclead.org/post/test5/</link>
-      <pubDate>Fri, 03 Feb 2017 14:32:22 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/test5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test55</title>
-      <link>http://dclead.org/post/test55/</link>
-      <pubDate>Fri, 03 Feb 2017 11:30:19 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/test55/</guid>
-      <description>&lt;p&gt;Who knew this would work!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>zast</title>
-      <link>http://dclead.org/post/zast/</link>
-      <pubDate>Fri, 03 Feb 2017 10:53:47 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/zast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>last</title>
-      <link>http://dclead.org/post/last/</link>
-      <pubDate>Fri, 03 Feb 2017 10:53:41 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/last/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alpha</title>
-      <link>http://dclead.org/post/alpha/</link>
-      <pubDate>Fri, 03 Feb 2017 10:52:43 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/alpha/</guid>
-      <description>&lt;p&gt;?Why not&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>third</title>
-      <link>http://dclead.org/post/third/</link>
-      <pubDate>Fri, 03 Feb 2017 10:30:41 -0500</pubDate>
-      
-      <guid>http://dclead.org/post/third/</guid>
-      <description>&lt;p&gt;Wow the third sucks
-Wow the third sucks
-Wow the third sucks
-Wow the third sucks
-Wow the third sucks
-Wow the third sucks&lt;/p&gt;
-</description>
     </item>
     
   </channel>
