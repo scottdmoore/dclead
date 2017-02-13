@@ -64,7 +64,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Health"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "From healthcare to reproductive rights."
     url = "#"
     button = "Why us?"
     icon = "icon-heart"
